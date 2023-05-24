@@ -7,7 +7,9 @@
 # }
 
 #下面是使用預設style 的寫法
-while (<>){
+use v5.22;
+print "plz enter \n";
+while (<<>>){
     chomp;
     print "now i see is $_ !\n";
 }
